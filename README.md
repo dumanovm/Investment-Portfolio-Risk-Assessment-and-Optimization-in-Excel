@@ -384,8 +384,6 @@ The project demonstrates advanced Excel not as a simple reporting tool, but as a
 
 ### Workbook Architecture
 
-The workbook consists of **34 interconnected worksheets** and **111,000+ formulas**.
-
 ```text
 Raw Data
 ├── Equity price sheets
@@ -419,128 +417,6 @@ Output Layer
 
 ---
 
-### Suggested Visuals for GitHub README
-
-To make the repository more visual, I recommend adding screenshots from the Excel file.
-
-Create a folder:
-
-```text
-images/
-```
-
-and add the following screenshots.
-
----
-
-#### 1. Workbook Structure
-
-```markdown
-![Workbook Structure](images/workbook_structure.png)
-```
-
-**What to screenshot:**  
-A view of the Excel workbook showing many worksheet tabs.
-
-**Why it matters:**  
-This immediately shows that the project is not a simple spreadsheet, but a complex multi-sheet financial model.
-
-**Suggested caption:**
-
-> The Excel workbook includes 34 interconnected worksheets covering data preparation, portfolio construction, risk modeling, optimization, and validation.
-
----
-
-#### 2. Formula-Driven Financial Model
-
-```markdown
-![Formula Model](images/formula_model.png)
-```
-
-**What to screenshot:**  
-A calculation-heavy sheet with formulas visible or a dense calculation table.
-
-**Why it matters:**  
-This demonstrates advanced Excel modeling and cross-sheet formula logic.
-
-**Suggested caption:**
-
-> Example of formula-driven calculations used for return estimation, bond pricing, and portfolio risk metrics.
-
----
-
-#### 3. Portfolio Optimization Output
-
-```markdown
-![Portfolio Optimization](images/portfolio_optimization.png)
-```
-
-**What to screenshot:**  
-The final portfolio allocation table or optimized weights for stocks and bonds.
-
-**Why it matters:**  
-This shows the transition from raw data to actionable investment allocation.
-
-**Suggested caption:**
-
-> Optimized portfolio weights for equities, bonds, and the combined 60/40 portfolio.
-
----
-
-#### 4. Yield Curve Dynamics
-
-```markdown
-![Yield Curve](images/yield_curve_dynamics.png)
-```
-
-**What to screenshot:**  
-The chart showing quarterly OFZ yield curve changes.
-
-**Why it matters:**  
-This gives visual evidence of fixed-income analysis and interest-rate risk modeling.
-
-**Suggested caption:**
-
-> Quarterly OFZ zero-coupon yield curve dynamics used for bond pricing and duration analysis.
-
----
-
-#### 5. Monte Carlo Simulation
-
-```markdown
-![Monte Carlo Simulation](images/monte_carlo_simulation.png)
-```
-
-**What to screenshot:**  
-Histogram or distribution chart for current and optimized portfolio simulations.
-
-**Why it matters:**  
-This makes risk modeling easier to understand visually.
-
-**Suggested caption:**
-
-> Monte Carlo simulation comparing the distribution of current and optimized portfolio outcomes.
-
----
-
-#### 6. Final Risk Summary
-
-```markdown
-![Final Risk Summary](images/final_risk_summary.png)
-```
-
-**What to screenshot:**  
-The final summary table with Sharpe ratios, beta, duration, convexity, VaR, or ES.
-
-**Why it matters:**  
-This is the most recruiter-friendly visual: it shows the final analytical output of the model.
-
-**Suggested caption:**
-
-> Final portfolio risk summary combining performance, sensitivity, and downside risk metrics.
-
----
-
 ### Key Excel Techniques Used
 
 | Excel Technique | How It Was Used |
@@ -556,21 +432,6 @@ This is the most recruiter-friendly visual: it shows the final analytical output
 | SUMPRODUCT | Portfolio return and weighted metric calculation |
 | VAR / STDEV | Volatility and variance estimation |
 | Solver / OpenSolver | Portfolio weight optimization |
-
-### Formula Scale
-
-| Formula / Function Group | Approximate Usage |
-|---|---:|
-| Total formulas | 111,000+ |
-| XLOOKUP | 8,700+ |
-| PV | 10,700+ |
-| DURATION | 2,500+ |
-| LN | 7,000+ |
-| IF / IFERROR | 27,000+ |
-| NORMINV / RAND | 3,700+ |
-| VAR / STDEV | 200+ |
-
-This level of formula usage demonstrates practical advanced Excel skills, including financial modeling, risk analytics, and model structuring.
 
 ---
 
@@ -624,13 +485,7 @@ The main value of the project is the ability to translate complex financial risk
 ```text
 README.md
 investment_portfolio_risk_model.xlsx
-images/
-├── workbook_structure.png
-├── formula_model.png
-├── portfolio_optimization.png
-├── yield_curve_dynamics.png
-├── monte_carlo_simulation.png
-└── final_risk_summary.png
+
 ```
 
 The Excel workbook is included as the main project artifact.
