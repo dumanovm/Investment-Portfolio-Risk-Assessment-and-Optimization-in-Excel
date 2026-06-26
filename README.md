@@ -54,18 +54,7 @@ Raw Market Data
 → Final Portfolio Evaluation
 ```
 
-The key value of the project is not only the financial analysis itself, but also the **advanced Excel implementation**. The workbook contains:
-
-| Excel Model Metric | Value |
-|---|---:|
-| Worksheets | 34 |
-| Formulas | 111,000+ |
-| XLOOKUP formulas | 8,700+ |
-| PV-based bond pricing formulas | 10,700+ |
-| DURATION formulas | 2,500+ |
-| Monte Carlo simulation formulas | 1,900+ |
-| Main analytical scope | Portfolio optimization, VaR, ES, backtesting, Monte Carlo |
-
+The key value of the project is not only the financial analysis itself, but also the **advanced Excel implementation**. 
 The project demonstrates the ability to build a complex, formula-driven Excel model suitable for financial analytics, risk assessment, and investment decision support.
 
 ---
